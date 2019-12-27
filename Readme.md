@@ -1,9 +1,9 @@
-##some_sorta_bar
-####A simple bar to display text from a pipe for lightweight window managers.
+## some_sorta_bar
+#### A simple bar to display text from a pipe for lightweight window managers.
 
 *e.g.* conky | some_sorta_bar
 
-###Text can be aligned in blocks and alignment is set in the text by marking the text *where it is to be split* with an ampersand and C or R to have the text centered or right aligned
+### Text can be aligned in blocks and alignment is set in the text by marking the text *where it is to be split* with an ampersand and C or R to have the text centered or right aligned
 
 *e.g.* To have the text right aligned
 
@@ -20,7 +20,7 @@ Centered text can be offset
 
 **#define BAR_CENTER -100     // 0=Screen center or pos/neg pixels to move right/left**
 
-###The ten colours are set at compile time so edit them to suit.
+### The ten colours are set at compile time so edit them to suit.
 
 The first colour is the default background and the second is the default for the text.
 All colours can be used for both the background and the text.
